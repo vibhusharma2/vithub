@@ -1,0 +1,44 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact > label {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.download_btn > a{
+    color: black;
+    color: #2878EB;
+    cursor: pointer;
+}
+.hostel_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.download_file{
+    padding-left: 2.6rem;
+    font-size: 1.4rem;
+
+}
+
+.hostel_body > img {
+    width: 600px;
+    height: 1200px;
+}
+
+.download_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

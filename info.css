@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.heading_container{
+    height: 20vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(/hero-bg.png);
+    color: white;
+}
+
+.main_heading {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hostel{
+    width: 100vw;
+    padding-top: 1.2rem;
+}
+
+.hostel_body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.hostel_info{
+    padding-bottom: 0.6rem;
+    margin-left: 1.2rem;
+}
+
+.hostel_info > label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: 0.7rem;
+    padding-top: 0.7rem;
+}
+
+.hostel_body > img  {
+    width: 500px;
+    height: 300px;
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+
+
+.room_info{
+    margin-top: 2rem;
+}
+
+.mess_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mess_top_body > img {
+    width: 420px;
+    height: 260px;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.mess_bottom_body > img{
+    width: 420px;
+    height: 260px;
+    padding: 0.6rem;
+    border-radius: 1rem;
+
+}
+
+.mess_bottom_body {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.mess_top_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
